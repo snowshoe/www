@@ -1,0 +1,106 @@
+@import url("fonts/fonts.css");
+@import url("mob_bottom.css");
+@import url("pagination.css");
+
+* {
+    /* Avoid fat fonts and custom browser margin values */
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    color: #56565b;
+}
+
+html {
+    background-color: #56565b;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+h1 {
+    letter-spacing: -1px;
+    font-family: "LatoHairline";
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+#top {
+    background-image: url("img/pixel_branco.png");
+    background-repeat: repeat-x;
+}
+
+#intern {
+    background-image: url("img/pixel_branco.png");
+    background-repeat: repeat-x;
+    min-height: 500px;
+    padding: 32px;
+}
+
+#middle {
+    font-family: "LatoLight";
+}
+
+#middle p {
+    color: black;
+}
+#middle a {
+    font-family: "LatoBlack";
+}
+
+/* title */
+#welcome {
+    font-family: "LatoHairline";
+    font-size: 40px;
+    line-height: 55px;
+    margin-top: 0px;
+}
+
+#welcome:first-line {
+    font-size: 48px;
+}
+
+#welcome strong {
+    font-family: "LatoLight";
+}
+
+
+
+/* slides */
+.slides_container {
+    background-image: url("img/mob_indextitle.png");
+    background-repeat: no-repeat;
+}
+
+.slides_container div {
+    height: 742px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+#highlight01 {
+    background-image: url("img/mob_highlight_01.png");
+}
+
+#highlight02 {
+    background-image: url("img/mob_highlight_02.png");
+}
+
+#highlight03 {
+    background-image: url("img/mob_highlight_03.png");
+}
+
+
+/* pagination */
+
+ul.pagination {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin-left: -40px;
+}
+
+.clear {
+    clear: both;
+}

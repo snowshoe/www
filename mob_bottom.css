@@ -4,12 +4,11 @@
 #bottom {
     background-image: url("img/pixel_cinzaescuro.png");
     background-repeat: repeat-x;
-    height: 180px;
 }
 
 #bottom_menu {
-    margin-top: 32px;
-    float: right;
+    padding-top: 32px;
+    margin: auto;
 }
 
 #bottom_menu th {
@@ -67,6 +66,12 @@
     font-family: "LatoBlack";
     color: #98989b;
     padding-right: 4px;
+}
+
+#logos {
+    padding-left: 32px;
+    padding-bottom: 32px;
+    float: left;
 }
 
 #logo_indt, #logo_qt {
