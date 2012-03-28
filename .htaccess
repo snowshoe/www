@@ -1,0 +1,3 @@
+DirectoryIndex index.php
+RedirectMatch 404 /contents(/|$)
+ErrorDocument 404 /?404
