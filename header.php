@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Snowshoe - About</title>
+    <base href="/" />
     <script src="jquery.min.js"></script>
     <script src="slides.min.jquery.js"></script>
     <link href="intern.css" rel="stylesheet" type="text/css" />
