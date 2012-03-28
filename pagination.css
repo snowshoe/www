@@ -1,0 +1,30 @@
+/* pagination */
+
+ul.pagination {
+    position: relative;
+    list-style: none;
+    padding: 0px;
+    width: 86px;
+    margin: auto;
+}
+
+ul.pagination li {
+    width: 12px;
+    height: 13px;
+    background-image: url(img/bullet_vazio.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+ul.pagination li {
+    display: inline;
+    padding: 10px;
+    margin: 0px;
+}
+ul.pagination li.current {
+    background-image: url(img/bullet_cheio.png);
+}
+.pagination a, .pagination a:active, .pagination a:visited, .pagination a:hover, .pagination a:link {
+    color: transparent;
+    width: 12px;
+    height: 13px;
+}

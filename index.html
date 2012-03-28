@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>Snowshoe</title>
+    <script src="jquery.min.js"></script>
+    <script src="slides.min.jquery.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript">
+        $(function(){
+            $('#slides').slides({
+                preload: true,
+                generateNextPrev: false,
+                effect: "fade",
+                paginationClass: "pagination",
+                play: 8000
+            });
+        });
+    </script>
+</style>
+</head>
+<body>
+<div id="top">
+    <div class="content">
+        <div id="slides">
+            <h1 id="welcome">Welcome<br/>to <strong>SnowShoe</strong></h1>
+            <div class="slides_container">
+                <div id="screen1">
+                    <h1>The first<br/>Q<span style="text-transform: none">t</span>5</h1>
+                    <p>The power of QML declarative language. <strong>INdT</strong> was able to quickly take
+                    advantage of all <strong>Qt5</strong> and <strong>WebKit2</strong> awesome features.</p>
+                </div>
+                <div id="screen2">
+                    <h1>A truly<br/>open source</h1>
+                    <p>Everybody together. Snowshoe is developed in the open, contributions
+                    are always welcome.<br/>
+                    <a href="https://github.com/snowshoe/snowshoe/wiki" alt="Wiki">Join us!</a></p>
+                </div>
+                <div id="screen3">
+                    <h1>Mobile<br/>&amp; Desktop</h1>
+                    <p><strong>Chameleon</strong>. Snowshoe mobile and desktop UI share the <strong>same code base</strong>.
+                    New features, code updates, everything shared between all versions.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="bottom">
+    <div class="content">
+        <a href="http://www.indt.org"><img id="logo_indt" src="img/logo_indt.png" title="INdT" /></a>
+        <img id="logo_indt" height="30" src="img/line.png" title="" />
+        <a href="http://www.qt-project.org"><img id="logo_qt" src="img/logo_qt.png" title="Qt Project" /></a>
+        <div>
+            <h2>Contact</h2>
+            <ul>
+                <li><span class="beloponto">.</span><a href="http://groups.google.com/group/snowshoe-dev">Mailing list</a></li>
+                <li><span class="beloponto">.</span>#snowshoe at freenode</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Code</h2>
+            <ul>
+                <li><span class="beloponto">.</span><a href="https://github.com/snowshoe/snowshoe">Git</a></li>
+                <li><span class="beloponto">.</span><a href="https://github.com/snowshoe/snowshoe/tarball/master">Latest tarball</a></li>
+            </ul>
+        </div>
+        <div class="lastcol">
+            <h2><a href="./">Snowshoe</a></h2>
+            <ul>
+                <li><span class="beloponto">.</span><a href="about.html">About</a></li>
+                <li><span class="beloponto">.</span><a href="https://github.com/snowshoe/snowshoe/wiki">Wiki</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<h1 id="browser">browser</h1>
+</body>
+</html>

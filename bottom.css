@@ -1,0 +1,83 @@
+
+/* bottom stuff */
+
+#bottom {
+    background-image: url("img/pixel_cinzaescuro.png");
+    background-repeat: repeat-x;
+    height: 180px;
+}
+
+#bottom .content div {
+    padding-top: 32px;
+    float: right;
+}
+
+#bottom .content ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#bottom .content li {
+    font-family: "LatoLight";
+    font-size: 16px;
+    color: #98989b;
+    padding-left: 1px;
+    margin: 0px 16px 4px 16px;
+}
+
+#bottom .content li a {
+    font-family: "LatoLight";
+    color: #98989b;
+    text-decoration: none;
+}
+
+#bottom .content li a:hover {
+    color: #eeeeef;
+    text-decoration: underline;
+}
+
+#bottom .content div.lastcol h2 {
+    border-left: none;
+}
+
+#bottom .content h2 {
+    font-family: "LatoBlack";
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #98989b;
+    border-left: 1px solid #69696F;
+    margin: 0;
+    padding: 0px 16px 10px 16px;
+}
+
+#bottom .content h2 a {
+    font-family: "LatoBlack";
+    font-size: 16px;
+    color: #98989b;
+    text-decoration: none;
+}
+
+#bottom .content h2 a:hover {
+    text-decoration: underline;
+}
+
+#bottom .beloponto {
+    font-family: "LatoBlack";
+    color: #98989b;
+    padding-right: 4px;
+}
+
+#logo_indt {
+    margin-top: 28px;
+    padding-right: 10px;
+}
+
+#logo_qt {
+    margin-top: 32px;
+}
+
+.itsme {
+    color: #eeeeef;
+    font-family: "LatoBlack";
+}
