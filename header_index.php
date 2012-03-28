@@ -24,7 +24,7 @@
 <div id="top">
     <div class="content">
         <div id="slides">
-            <h1 id="welcome">Welcome<br/>to <strong>SnowShoe</strong></h1>
+            <h1 id="welcome">Welcome<br/><span style="white-space: nowrap">to <strong>SnowShoe</strong></span></h1>
             <div class="slides_container">
                 <div id="screen1">
                     <h1>The first<br/>Q<span style="text-transform: none">t</span>5</h1>
