@@ -1,10 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8">
     <title>Snowshoe</title>
-    <script src="jquery.min.js"></script>
-    <script src="slides.min.jquery.js"></script>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="slides.min.jquery.js"></script>
     <link href="style.css" rel="stylesheet" type="text/css" />
 
     <script type="text/javascript">
@@ -35,7 +34,7 @@
                     <h1>A truly<br/>open source</h1>
                     <p>Everybody together. Snowshoe is developed in the open, contributions
                     are always welcome.<br/>
-                    <a href="https://github.com/snowshoe/snowshoe/wiki" alt="Wiki">Join us!</a></p>
+                    <a href="https://github.com/snowshoe/snowshoe/wiki">Join us!</a></p>
                 </div>
                 <div id="screen3">
                     <h1>Mobile<br/>&amp; Desktop</h1>

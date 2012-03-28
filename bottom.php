@@ -4,9 +4,9 @@ $about = $page === "about" ? '<span class="itsme">About</span>' : '<a href="?abo
 ?>
 <div id="bottom">
     <div class="content">
-        <a href="http://www.indt.org"><img id="logo_indt" src="img/logo_indt.png" title="INdT" /></a>
-        <img id="logo_indt" height="30" src="img/line.png" title="" />
-        <a href="http://www.qt-project.org"><img id="logo_qt" src="img/logo_qt.png" title="Qt Project" /></a>
+        <a href="http://www.indt.org"><img id="logo_indt" src="img/logo_indt.png" /></a>
+        <img id="logo_qt" height="30" src="img/line.png" alt="INdT" title="INdT" />
+        <a href="http://www.qt-project.org"><img id="logo_qt" src="img/logo_qt.png" alt="Qt Project" title="Qt Project" /></a>
         <div>
             <h2>Contact</h2>
             <ul>
