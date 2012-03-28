@@ -6,7 +6,7 @@ $page = "";
 
 if ($isIndex) {
     // index
-    include("_index.html");
+    include("header_index.php");
 } else {
     // some intern page
     $page = $keys[0];

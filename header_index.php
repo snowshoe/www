@@ -18,7 +18,7 @@
             });
         });
     </script>
-</style>
+<?php include("analytics.php"); ?>
 </head>
 <body>
 <div id="top">

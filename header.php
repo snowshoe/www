@@ -19,6 +19,7 @@
             });
         });
     </script>
+<?php include("analytics.php"); ?>
 </style>
 </head>
 <body>
