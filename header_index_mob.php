@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Snowshoe</title>
-    <meta content="width=480px" name="viewport" />
+    <meta content="width=480" name="viewport" />
     <script src="jquery.min.js"></script>
     <script src="slides.min.jquery.js"></script>
     <link href="mob_styles.css" rel="stylesheet" type="text/css" />
