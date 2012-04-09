@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Snowshoe</title>
     <meta content="width=480" name="viewport" />
+    <link rel="icon" href="img/favicon.gif" />
     <script src="jquery.min.js"></script>
     <script src="slides.min.jquery.js"></script>
     <link href="mob_styles.css" rel="stylesheet" type="text/css" />

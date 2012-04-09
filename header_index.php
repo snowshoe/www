@@ -5,6 +5,7 @@
     <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="slides.min.jquery.js"></script>
     <meta content="width=1111" name="viewport" />
+    <link rel="icon" href="img/favicon.gif" />
     <link href="style.css" rel="stylesheet" type="text/css" />
 
     <script type="text/javascript">

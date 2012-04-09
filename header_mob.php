@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Snowshoe - About</title>
     <meta content="width=480px" name="viewport" />
+    <link rel="icon" href="img/favicon.gif" />
     <base href="/" />
     <link href="mob_styles.css" rel="stylesheet" type="text/css" />
 
