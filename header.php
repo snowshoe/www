@@ -3,7 +3,7 @@
 <head>
     <link rel="icon" href="img/favicon.gif" />
     <title>Snowshoe - About</title>
-    <base href="/" />
+    <?php if ($page == "404") echo '<base href="/" />' ?>
     <script src="jquery.min.js"></script>
     <script src="slides.min.jquery.js"></script>
     <link href="intern.css" rel="stylesheet" type="text/css" />
