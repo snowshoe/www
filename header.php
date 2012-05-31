@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <link rel="icon" href="img/favicon.gif" />
-    <title>Snowshoe - About</title>
+    <title>Snowshoe</title>
     <?php if ($page == "404") echo '<base href="/" />' ?>
     <script src="jquery.min.js"></script>
     <script src="slides.min.jquery.js"></script>

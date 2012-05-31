@@ -1,6 +1,7 @@
 <?php
 $index = $page === "" ? "Snowshoe" : '<a href="./">Snowshoe</a>';
 $about = $page === "about" ? '<span class="itsme">About</span>' : '<a href="?about">About</a>';
+$installOnN9 = $page === "installonn9" ? '<span class="itsme">Install on N9</span>' : '<a href="?installonn9">Install on N9</a>';
 ?>
 <div id="bottom">
     <div class="content">
@@ -14,6 +15,7 @@ $about = $page === "about" ? '<span class="itsme">About</span>' : '<a href="?abo
                 <td>
                     <ul>
                         <li><span class="beloponto">.</span><?php echo $about; ?></li>
+                        <li><span class="beloponto">.</span><?php echo $installOnN9; ?></li>
                         <li><span class="beloponto">.</span><a href="https://github.com/snowshoe/snowshoe/wiki">Wiki</a></li>
                     </ul>
                 </td>

@@ -31,6 +31,11 @@ h1, h2 {
     height: 187px;
 }
 
+#middle .content ul {
+    list-style-position: inside;
+    margin-bottom: 20px;
+}
+
 ul.pagination {
     top: -220px;
 }
