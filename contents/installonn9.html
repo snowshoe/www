@@ -2,10 +2,37 @@
 
 <p>Snowshoe is available for Nokia N9 through its own repository, which also hosts Qt5 and QtWebKit packages. To install, follow these steps:</p>
 
-<ul>
-<li><a href="http://harmattan-dev.nokia.com/docs/library/html/guide/html/Developer_Library_Developing_for_Harmattan_Activating_developer_mode.html">Enable developer mode</a> on your N9. Within developer mode screen, install the "Utilities" set of packages, which contains wget, required by the repository installer.</li>
-<li>Install the <a href="http://qtlabs.org.br/~lmoura/qt5/conf/qt5-repository_0.3_all.deb">repository package</a>. It'll add repository to the N9 software sources list.</li>
-<li>With a package manager like <a href="http://store.ovi.com/content/220215">MeeCatalog</a>, install Snowshoe Mobile. The package will add the Qt5 and QtWebKit dependencies.</li>
-</ul>
+<h2>Step 1 - Enable developer mode</h2>
 
-<p>Snowshoe is built using a recent QtWebKit revision and the latest Qt5 hashes announced on QtWebKit mailing list.</p>
+<p>You can find how to do this on <a href="http://harmattan-dev.nokia.com/docs/library/html/guide/html/Developer_Library_Developing_for_Harmattan_Activating_developer_mode.html">MeeGo 1.2 Harmattan Developer Documentation</a>.</p>
+
+<p>With the developer mode enabled you now have a terminal available to you under your N9 menu, open the terminal and install wget (required by the repository installer).</p>
+
+<pre># apt-get install wget</pre>
+
+<h2>Step 2 - Install Snowshoe GPG keys</h2>
+
+<p>Download and add the keys to avoid warnings when installing Snowshoe packages</p>
+
+<pre># cd /tmp
+# wget http://snowshoe.qtlabs.org.br/apt/conf/Qt5N9.gpg.key
+# apt-key add Qt5N9.gpg.key
+# rm Qt5N9.gpg.key</pre>
+
+<h2>Step 3 - Install repository package and all dependencies</h2>
+
+<p>Snowshoe is built using a recent QtWebKit revision and the latest Qt5 hashes announced on QtWebKit mailing list, to install all dependencies first download and isntall the repositories package, this package will add Snowshoe repositories to your N9, then you can install Snowshoe.</p>
+
+<pre># wget http://snowshoe.qtlabs.org.br/apt/snowshoe-repositories.deb
+# apt-get install webkit-snapshot</pre>
+
+<h2>Step 4 - Compile yourself or install a package</h2>
+
+<p>If you already have a scratchbox setup on your machine is very easy to compile and run snowshoe on your n9, just type (on your machine!):</p>
+
+<pre>$ cd &lt;snowshoe dir>
+$ ./tools/build-deploy.sh -i &lt;device ip> -r</pre>
+
+<p>But if you want to just install the package and forget about scrachbox stuff, just install the snowshoe package.</p>
+
+<pre># apt-get install snowshoe</pre>

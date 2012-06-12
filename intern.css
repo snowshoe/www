@@ -63,8 +63,16 @@ ul.pagination {
     font-family: "LatoBlack";
 }
 
-#main p {
+
+#main h2 {
+    padding-top: 20px;
     padding-bottom: 20px;
+    letter-spacing: -1px;
+    color: #ccc;
+}
+
+#main p {
+    padding-bottom: 10px;
     line-height: 27px;
 }
 
@@ -82,6 +90,11 @@ ul.pagination {
     width: 876px;
 }
 
+pre {
+    font-family: monospace;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 
 
