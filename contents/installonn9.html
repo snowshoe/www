@@ -6,33 +6,27 @@
 
 <p>You can find how to do this on <a href="http://harmattan-dev.nokia.com/docs/library/html/guide/html/Developer_Library_Developing_for_Harmattan_Activating_developer_mode.html">MeeGo 1.2 Harmattan Developer Documentation</a>.</p>
 
-<p>With the developer mode enabled you now have a terminal available to you under your N9 menu, open the terminal and install wget (required by the repository installer).</p>
+<p>Go to Settings -> Security -> Developer Mode and install Utilities, this will install wget (required by the repository installer).</p>
 
-<pre># apt-get install wget</pre>
-
-<h2>Step 2 - Install Snowshoe GPG keys</h2>
-
-<p>Download and add the keys to avoid warnings when installing Snowshoe packages</p>
-
-<pre># cd /tmp
-# wget http://snowshoe.qtlabs.org.br/apt/conf/Qt5N9.gpg.key
-# apt-key add Qt5N9.gpg.key
-# rm Qt5N9.gpg.key</pre>
-
-<h2>Step 3 - Install repository package and all dependencies</h2>
+<h2>Step 2 - Install repository package</h2>
 
 <p>Snowshoe is built using a recent QtWebKit revision and the latest Qt5 hashes announced on QtWebKit mailing list, to install all dependencies first download and isntall the repositories package, this package will add Snowshoe repositories to your N9, then you can install Snowshoe.</p>
 
-<pre># wget http://snowshoe.qtlabs.org.br/apt/snowshoe-repositories.deb
-# apt-get install webkit-snapshot</pre>
+<div id="qrcode"><img src="img/repoqrcode.png" alt="QR code" valign="middle"/> <a href="http://snowshoe.qtlabs.org.br/apt/snowshoe-repositories.deb">http://snowshoe.qtlabs.org.br/apt/snowshoe-repositories.deb</a></div>
 
-<h2>Step 4 - Compile yourself or install a package</h2>
+<!--<pre># wget http://snowshoe.qtlabs.org.br/apt/snowshoe-repositories.deb
+# apt-get install webkit-snapshot</pre>-->
 
-<p>If you already have a scratchbox setup on your machine is very easy to compile and run snowshoe on your n9, just type (on your machine!):</p>
+<h2>Step 3 - Install Snowshoe</h2>
 
-<pre>$ cd &lt;snowshoe dir>
-$ ./tools/build-deploy.sh -i &lt;device ip> -r</pre>
-
-<p>But if you want to just install the package and forget about scrachbox stuff, just install the snowshoe package.</p>
+<p>Use some package manager like <a href="http://store.ovi.com/content/220215">MeeCatalog</a> to install snowshoe or open a terminal as root and install it.</p>
 
 <pre># apt-get install snowshoe-mobile</pre>
+
+<h2>Compiling from sources</h2>
+
+<p>If you already have a scratchbox with a Harmattan setup on your machine is very easy to compile and run snowshoe on your n9, first select the ARMEL target on scratchbox, install the repository package (step 2), all dependencies (webkit-snapshot package) then go to snowshoe directory outsite scratchbox and type:</p>
+
+<pre>$ ./tools/build-deploy.sh -i &lt;device ip> -r</pre>
+
+<p>The <code>build-deploy.sh</code> script provide more options, like generate packages, just compile, etc.</p>

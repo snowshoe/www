@@ -96,5 +96,13 @@ pre {
     margin-bottom: 10px;
 }
 
+code {
+    font-family: monospace;
+}
+
+#qrcode {
+    text-align: center;
+}
+
 
 
